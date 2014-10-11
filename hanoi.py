@@ -10,9 +10,6 @@ def initialize():
 		disque[i] += "_" * i
 		disque[i] += " " * (n+2-i)
 
-def main():
-	initialize()
-	demo(n, 0, 2, 1)
 """	while (1):
 		display()
 	 	start = int(raw_input("From: "))
@@ -73,3 +70,5 @@ def display():
 		single_line(i)
 	print disque[0]
 
+initialize()
+demo(n, 0, 2, 1)
